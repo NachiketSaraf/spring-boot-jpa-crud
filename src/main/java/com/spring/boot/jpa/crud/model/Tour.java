@@ -16,7 +16,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Tour {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -51,7 +50,5 @@ public class Tour {
 
     @Column(name = "duration_weeks")
     private Integer durationWeeks;
-
-
 }
 
